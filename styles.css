@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(252, 234, 234);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-color: aliceblue;
+    border-bottom: 2px solid rgb(94, 92, 92);
+
+    padding: 15px;
+}
+
+
+
+/* HEADER HEADER HEADER HEADER HEADER  */
+
+header .navigation-bar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+header .navigation-bar h1{
+    letter-spacing: 2.5px;
+    font-size: 2.5em;
+}
+
+header .navigation-bar .nav-bar-items ul{
+    display: flex;
+}
+
+header .navigation-bar .nav-bar-items ul li{
+    list-style: none;
+    padding: 10px;
+}
+
+header .navigation-bar .nav-bar-items ul li a{
+    text-decoration: none;
+    padding: 10px;
+}
+
+/* ABOUT ABOUT ABOUT ABOUT ABOUT */
+
+.about-me{
+    display: flex;
+}
+
+.about-me 
